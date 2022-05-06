@@ -99,8 +99,7 @@ if __name__ == '__main__':
   
   #plotting of the figures
   print("\n ================================= \n Final drawing \n ================================= \n")
-  res = np.array(res)
-  res_flatten = res.flatten()
+  res_flatten = res_nb_event.flatten()
   
   plt.figure()
   plt.ylabel("Number of chips")
